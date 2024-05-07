@@ -34,10 +34,10 @@ function WorkHistory(_, ref) {
         },
     ]
     return (
-        <section ref={ref} className="px-16 pb-32 flex flex-col items-center justify-center portfolio-wrapper bg-gray-950">
+        <section ref={ref} className="px-8 pb-32 flex flex-col items-center justify-center portfolio-wrapper bg-gray-950">
             <div className="no-scrollbar overflow-hidden pb-[80px] w-full overflow-x-hidden">
                 <div className="flex items-center gap-[10px] mt-[100px]">
-                    <h2 className="text-6xl font-bold text-white whitespace-nowrap">SELECTED WORKS</h2>
+                    <h2 className="xl:text-6xl md:text-5xl text-3xl font-bold text-white whitespace-nowrap">SELECTED WORKS</h2>
                 </div>
             </div>
             <div className="flex flex-col w-full gap-12">

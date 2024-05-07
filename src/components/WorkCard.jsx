@@ -2,10 +2,10 @@ import TextBlock from "./TextBlock";
 
 function WorkCard({ title, description, stack, image, year, url }) {
     return (
-        <article className="group bg-transparent grid grid-cols-2 gap-4 border border-gray-400 rounded-md px-4">
+        <article className="group bg-transparent grid md:grid-cols-2 gap-4 border border-gray-400 rounded-md px-4">
             <div className="flex flex-col justify-center">
                 <div className="flex flex-col justify-between align-left py-12">
-                    <h3 className="text-5xl font-bold text-white mb-8">{title}</h3>
+                    <h3 className="xl:text-5xl lg:text-4xl text-3xl font-bold text-white mb-8">{title}</h3>
                     <div className="flex flex-wrap gap-4 text-gray-300 font-thin items-center">
                         {stack.map((technology) => (
                             <TextBlock key={technology} text={technology} />
